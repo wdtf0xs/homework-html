@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 50vh;
+    background-color: #431e8a;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.pixel{
+    width: 200px;
+    height: 200px;
+    background-color: #7fe5e7;
+    font-family: "Rubik Pixels", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ave{
+    width: 200px;
+    height: 200px;
+    background-color: #7fe5e7;
+    font-family: "Sedgwick Ave Display", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dancing{
+    width: 200px;
+    height: 200px;
+    background-color: #7fe5e7;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fjalla{
+    width: 200px;
+    height: 200px;
+    background-color: #7fe5e7;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flower{
+    width: 200px;
+    height: 200px;
+    background-color: #7fe5e7;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
