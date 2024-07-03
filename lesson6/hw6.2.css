@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 22vh;
+    width: 100vw;
+    background: #D9D9D9;
+}
+
+main{
+    height: 56vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first{
+    width: 25%;
+    height: 100%;
+    background: #C0BDBD;
+}
+
+.second{
+    width: 50%;
+    height: 100%;
+    background: #A4A4A4;
+}
+
+.third{
+    width: 25%;
+    height: 100%;
+    background: #C0BDBD;
+}
+
+footer{
+    height: 22vh;
+    width: 100vw;
+    background: #D9D9D9;
+}
