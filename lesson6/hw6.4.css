@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 20vh;
+    background: #8D8484;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container {
+    display: flex;
+
+}
+
+main {
+    width: 66vw;
+}
+
+section {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    background: #776969;
+}
+
+.second {
+    background: #643030;
+}
+
+.third {
+    background: #441818;
+}
+
+section p, aside p {
+    color: #FFF;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+aside {
+    width: 34vw;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-aside {
+    background: #937575;
+}
+
+.bot-aside {
+    background: #644C4C;
+}
+
+footer {
+    height: 20vh;
+    background: #BDBDBD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

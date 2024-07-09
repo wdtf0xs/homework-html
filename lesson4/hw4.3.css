@@ -1,0 +1,50 @@
+body{
+margin: 3vh;
+}
+
+.top{
+    width: 80vw;
+    height: 60vh;
+    background-color: #431e8a;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 100;
+}
+
+.mid{
+    width: 80vw;
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 32%;
+    height: 100%;
+    background-color: #d271f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 100;
+}
+
+
+.bot{
+    width: 80vw;
+    height: 60vh;
+    background-color: #260e59;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 100;
+}
+
