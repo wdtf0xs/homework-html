@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.load{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    background: linear-gradient(158deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 33%, rgba(150,144,137,1) 100%);
+}
+
+.loader{
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 100px;
+    animation: circle 3s infinite;
+}
+
+@keyframes circle {
+    0%{}
+
+    100%{
+        scale: 40;
+        }
+}
